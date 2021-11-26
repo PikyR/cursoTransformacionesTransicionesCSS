@@ -1,0 +1,37 @@
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 10px auto 30px;  
+  border-radius: 50%;
+  background: linear-gradient(
+    to right,
+    #11998e,
+    #38ef7d
+  );
+}
+
+.item:hover {
+  transform: scale(0.8); /*Con un solo valor, lo aplica a ambos ejes*/
+  /* transform: scale(<ejeX>, <ejeY>); */
+  /* transform: scaleX(0.8); */
+  /* transform: scaleY(0.8); */
+}
+
+.skew {
+  border-radius: 20px;
+}
+.skew:hover {
+  transform: skew(-10deg, 5deg);
+  /* transform: skewX(-10deg); */
+  /* transform: skewY(5deg); */
+}
+
+.rotate {
+  border-radius: 50px;
+}
+.rotate:hover {
+  transform: rotate(40deg);
+  /* transform: rotateX(40deg); */
+  /* transform: rotateY(40deg); */
+}
+
