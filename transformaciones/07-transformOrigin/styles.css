@@ -1,0 +1,15 @@
+.item {
+  margin-block-start: 150px;
+  margin-inline: auto;
+  width: 200px;
+  height: 300px;
+  background-color: SlateGray;
+  border-inline: solid 10px SeaGreen;
+  border-block: solid 10px MediumAquamarine;
+
+  transform-origin: top right;
+}
+
+.item:hover {
+  transform: rotate(20deg);
+}
