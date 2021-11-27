@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-inline: auto;
+  border: 5px solid slateblue;
+
+  perspective: 20px;
+}
+
+.item {
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  opacity: 0.5;
+
+  transform-style: preserve-3d;
+  transform: rotateX(20deg);
+}
