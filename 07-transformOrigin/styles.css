@@ -12,4 +12,5 @@
 
 .item:hover {
   transform: rotate(20deg);
+  transition: all 0.8s;
 }

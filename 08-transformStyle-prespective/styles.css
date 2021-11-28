@@ -6,6 +6,8 @@
   border: 5px solid slateblue;
 
   perspective: 20px;
+
+  text-align: center;
 }
 
 .item {
@@ -17,6 +19,10 @@
   background-color: tomato;
   opacity: 0.5;
 
-  transform-style: preserve-3d;
+  transform-style: preserve-3d;  
+}
+
+.container:hover .item{ 
   transform: rotateX(20deg);
+  transition: all 1s;
 }

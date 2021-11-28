@@ -32,7 +32,7 @@
   width: 100%;
 }
 
-/* calculo para obteber el valor de perspective para que queden a escala */
+/* calculo para obteber el valor de scale para que las capas queden a escala */
 /*
   scale = (perspectiva - translateZ) / perspectiva
 
