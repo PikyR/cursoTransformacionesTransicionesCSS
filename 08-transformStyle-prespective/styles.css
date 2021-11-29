@@ -4,10 +4,11 @@
   height: 200px;
   margin-inline: auto;
   border: 5px solid slateblue;
+  text-align: center;
 
   perspective: 20px;
 
-  text-align: center;
+
 }
 
 .item {
@@ -20,9 +21,11 @@
   opacity: 0.5;
 
   transform-style: preserve-3d;  
+
+  transform: rotateX(0deg);
+  transition: all 1s;
 }
 
 .container:hover .item{ 
-  transform: rotateX(20deg);
-  transition: all 1s;
+  transform: rotateX(20deg);  
 }
