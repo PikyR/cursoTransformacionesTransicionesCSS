@@ -1,0 +1,15 @@
+.item {
+  margin-inline: auto;
+
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid steelblue;
+
+  transition: transform 0.6s cubic-bezier(.64,.06,.7,1.2);
+}
+
+.item:hover {
+  transform: translateY(100px);
+  transition: transform 0.3s;
+}
