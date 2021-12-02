@@ -1,0 +1,36 @@
+.container { 
+  background-color: khaki;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+button {
+  font-size: 2rem;
+  width: 150px;
+  padding: 10px;
+  border-radius: 50px;
+  border: 5px solid transparent;
+}
+
+.better {
+  background-color: forestgreen;
+  
+  will-change: transform;
+  transition: transform 0.5s;
+}
+.better:hover {
+  transform: translateY(10px);
+}
+
+.worst {
+  background-color: darkorange;
+  
+  will-change: margin-top;
+  transition: margin-top 0.5s;
+}
+.worst:hover {
+  margin-top: 10px;
+}
